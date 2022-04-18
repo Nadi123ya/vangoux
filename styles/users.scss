@@ -1,0 +1,48 @@
+.users {
+  padding: 0 60px 120px 60px;
+  @include for-large-up {
+   display: none;
+  }
+
+  &__explanation {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  &__line {
+    margin-bottom: 28px;
+  }
+
+  &__container {
+    display: flex;
+    margin-top: 20px;
+  }
+  &__blocks {
+    width: 250px;
+    height: 190px;
+    background-color: $background-color-white;
+    box-shadow: 0px 20px 60px $shadow-color-button-block-light-blue;
+  }
+  &__blocks:last-child {
+    margin-left: 20px;
+  }
+  &__title {
+    margin: 0;
+    text-transform: capitalize;
+    color: $text-color-blue;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px;
+  }
+  &__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 20px 20px 20px;
+  }
+}

@@ -1,0 +1,111 @@
+.workflow {
+  padding: 0 60px 125px 60px;
+  @include for-large-up {
+    padding: 0 120px 120px 120px;
+  }
+
+  &__explanation {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    @include for-large-up {
+      padding-left: 40px;
+    }
+  }
+
+  &__container {
+    margin-top: 48px;
+    @include for-large-up {
+      margin: 0;
+      display: flex;
+      padding-left: 40px;
+    }
+  }
+  &__line-between {
+    height: 40px;
+    border-left: 2px dashed $border-color-blue;
+    margin-left: 79px;
+    @include for-large-up {
+      border: none;
+      height: 160px;
+      width: 70px;
+      margin: 0;
+      border-bottom: 2px dashed $border-color-blue;
+    }
+  }
+  &__line-between-second {
+    @include for-large-up {
+      height: 199px;
+    }
+  }
+  &__block {
+    width: 520px;
+    height: 180px;
+    background-color: $background-color-white;
+    box-shadow: 0px 20px 60px $shadow-color-button-block-light-blue;
+    position: relative;
+    @include for-large-up {
+      height: 220px;
+    }
+  }
+  &__block:first-child {
+    @include for-large-up {
+      margin-top: 38px;
+    }
+  }
+
+  &__block:nth-child(3) {
+    @include for-large-up {
+      margin-top: 78px;
+    }
+  }
+
+  &__block:last-child {
+    @include for-large-up {
+      margin-top: 118px;
+    }
+  }
+  &__content {
+    padding: 40px;
+  }
+  &__step {
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  &__action {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    align-items: center;
+    text-transform: uppercase;
+    color: $text-color-blue;
+  }
+  &__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    @include for-large-up {
+    }
+  }
+  &__image {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  &__juju {
+    position: absolute;
+    right: -5px;
+    top: 160px;
+    width: 25px;
+    height: 25px;
+    @include for-large-up {
+      top: 201px;
+    }
+  }
+}

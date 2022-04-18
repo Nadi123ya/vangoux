@@ -1,0 +1,59 @@
+.purposes {
+  padding: 0 60px 60px 60px;
+
+  @include for-large-up {
+    padding: 0 120px 120px 120px;
+  }
+  &__explanation {
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    @include for-large-up {
+      display: none;
+    }
+  }
+  &__explanation-desktop {
+    display: none;
+    @include for-large-up {
+      display: block;
+      margin: 0;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      padding-left: 40px;
+    }
+  }
+  &__block {
+    @include for-large-up {
+      display: flex;
+      padding-left: 40px;
+    }
+  }
+  &__content {
+    display: flex;
+    background-color: $shadow-color-white;
+    box-shadow: 0px 20px 60px $shadow-color-button-block-light-blue;
+    margin-top: 40px;
+    @include for-large-up {
+      margin-right: 40px;
+      min-width: 540px;
+    }
+  }
+  &__content:last-child {
+    @include for-large-up {
+      margin-right: 0;
+    }
+  }
+  &__image {
+    width: 80px;
+    height: 80px;
+  }
+  &__text {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 20px;
+  }
+}

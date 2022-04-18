@@ -1,0 +1,70 @@
+.top-section {
+  padding: 40px 80px 0 80px;
+  @include for-large-up {
+    padding: 30px 160px 0 160px;
+  }
+}
+.page-header {
+  @include for-large-up {
+    width: 1140px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+  }
+  &__logo {
+    display: flex;
+  }
+
+  &__logo_image {
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/LogoSmallSolid.png");
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+  }
+
+  &__logo_text {
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $text-color-blue;
+  }
+
+  &__navigation {
+    display: none;
+    @include for-large-up {
+      display: flex;
+      margin-left: 220px;
+    }
+  }
+
+  &__navigation_item {
+    @include for-large-up {
+      display: block;
+      width: 120px;
+      text-decoration: none;
+      line-height: 50px;
+      font-size: 18px;
+      color: $color-black;
+      text-align: center;
+    }
+  }
+  &__navigation_item:last-child {
+    @include for-large-up {
+      width: 180px;
+      margin-right: 20px;
+    }
+  }
+  &__action-btn {
+    display: none;
+    @include for-large-up {
+      display: block;
+      width: 180px;
+      height: 50px;
+    }
+  }
+}

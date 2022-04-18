@@ -1,0 +1,88 @@
+.stories {
+  padding: 60px;
+  @include for-large-up {
+    padding: 120px;
+  }
+  &__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    @include for-large-up {
+      padding-left: 40px;
+    }
+  }
+  &__line {
+    margin-bottom: 2px;
+  }
+  &__box-desktop {
+    @include for-large-up {
+      display: flex;
+      margin-top: 48px;
+      padding-left: 40px;
+    }
+  }
+  &__container {
+    display: flex;
+  }
+  &__container:first-child {
+    @include for-large-up {
+      margin-right: 150px;
+    }
+  }
+
+  &__image {
+    width: 40px;
+    height: 33px;
+    margin-right: 20px;
+    margin-top: 40px;
+    @include for-large-up {
+      margin: 0;
+      margin-right: 20px;
+    }
+  }
+  &__content {
+    @include for-large-up {
+      width: 420px;
+    }
+  }
+  &__content:last-child {
+    margin-top: 40px;
+    @include for-large-up {
+      margin: 0;
+    }
+  }
+  &__question {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  &__paragraph-first {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &__paragraph-second {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &__paragraph-third {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    @include for-large-up {
+      width: 420px;
+    }
+  }
+  &__link {
+    color: $color-black;
+  }
+}

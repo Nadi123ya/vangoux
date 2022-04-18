@@ -1,0 +1,55 @@
+.consultation {
+  padding: 60px;
+  color: $color-white;
+  position: relative;
+  background-color: $background-color-blue;
+  @include for-large-up {
+    padding: 80px 120px 80px 120px;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    @include for-large-up {
+      padding-left: 40px;
+    }
+  }
+  &__image {
+    display: none;
+    @include for-large-up {
+      display: block;
+      position: absolute;
+      bottom: -126px;
+      right: 10px;
+    }
+  }
+  &__text {
+    margin: 0;
+    margin-top: 38px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    @include for-large-up {
+      display: block;
+      width: 640px;
+      padding-left: 40px;
+    }
+  }
+  &__button {
+    margin-top: 40px;
+    width: 350px;
+    height: 50px;
+    background-color: $background-color-white;
+    color: $text-color-blue;
+    border: none;
+    box-shadow: 4px 4px 20px $shadow-color-white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    @include for-large-up {
+      margin-left: 40px;
+    }
+  }
+}
