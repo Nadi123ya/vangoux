@@ -9,12 +9,14 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 60px;
+
     @include for-large-up {
       display: none;
     }
   }
   &__explanation-desktop {
     display: none;
+
     @include for-large-up {
       display: block;
       margin: 0;
@@ -25,6 +27,7 @@
     }
   }
   &__block {
+
     @include for-large-up {
       display: flex;
       padding-left: 40px;
@@ -35,12 +38,14 @@
     background-color: $shadow-color-white;
     box-shadow: 0px 20px 60px $shadow-color-button-block-light-blue;
     margin-top: 40px;
+
     @include for-large-up {
       margin-right: 40px;
       min-width: 540px;
     }
   }
   &__content:last-child {
+    
     @include for-large-up {
       margin-right: 0;
     }

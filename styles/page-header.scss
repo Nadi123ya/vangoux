@@ -1,10 +1,12 @@
 .top-section {
   padding: 40px 80px 0 80px;
+
   @include for-large-up {
     padding: 30px 160px 0 160px;
   }
 }
 .page-header {
+
   @include for-large-up {
     width: 1140px;
     height: 50px;
@@ -36,6 +38,7 @@
 
   &__navigation {
     display: none;
+
     @include for-large-up {
       display: flex;
       margin-left: 220px;
@@ -43,17 +46,19 @@
   }
 
   &__navigation_item {
+
     @include for-large-up {
       display: block;
       width: 120px;
       text-decoration: none;
       line-height: 50px;
-      font-size: 18px;
+      font-size: 14px;
       color: $color-black;
       text-align: center;
     }
   }
   &__navigation_item:last-child {
+
     @include for-large-up {
       width: 180px;
       margin-right: 20px;
@@ -61,6 +66,7 @@
   }
   &__action-btn {
     display: none;
+    
     @include for-large-up {
       display: block;
       width: 180px;

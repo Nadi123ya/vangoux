@@ -1,5 +1,6 @@
 .stories {
   padding: 60px;
+  
   @include for-large-up {
     padding: 120px;
   }
@@ -8,6 +9,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 60px;
+
     @include for-large-up {
       padding-left: 40px;
     }
@@ -16,6 +18,7 @@
     margin-bottom: 2px;
   }
   &__box-desktop {
+
     @include for-large-up {
       display: flex;
       margin-top: 48px;
@@ -26,6 +29,7 @@
     display: flex;
   }
   &__container:first-child {
+
     @include for-large-up {
       margin-right: 150px;
     }
@@ -36,18 +40,21 @@
     height: 33px;
     margin-right: 20px;
     margin-top: 40px;
+
     @include for-large-up {
       margin: 0;
       margin-right: 20px;
     }
   }
   &__content {
+
     @include for-large-up {
       width: 420px;
     }
   }
   &__content:last-child {
     margin-top: 40px;
+
     @include for-large-up {
       margin: 0;
     }
@@ -78,6 +85,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+
     @include for-large-up {
       width: 420px;
     }

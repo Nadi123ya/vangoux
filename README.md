@@ -2,7 +2,7 @@
 
 **[Site Link](https://nadi123ya.github.io/vangoux/)**
 
-### Layout supports mobile (up-to-1024px) and desktop (up-to-1360) versions
+### Layout supports mobile (up-to-640px) and desktop (up-to-1440px) versions
 
 ## The tech stack is:
 

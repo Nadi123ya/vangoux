@@ -32,6 +32,7 @@ html {
     #1968fc00 99.94%,
     #1968fc0d 100%
   );
+  
   @include for-large-up {
     max-width: 1440px;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png");

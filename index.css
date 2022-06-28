@@ -50,7 +50,7 @@
     width: 120px;
     text-decoration: none;
     line-height: 50px;
-    font-size: 18px;
+    font-size: 14px;
     color: #11223f;
     text-align: center;
   }
@@ -356,6 +356,9 @@
     padding: 0 120px 120px 120px;
   }
 }
+.features__line {
+  margin-bottom: 48px;
+}
 .features__explanation {
   margin: 0;
   font-weight: 400;
@@ -564,7 +567,6 @@
 @media screen and (min-width: 1024px) {
   .user__title {
     margin: 0;
-    text-transform: capitalize;
     color: #1968fc;
     font-weight: 700;
     font-size: 20px;
@@ -832,7 +834,7 @@
 .footer__logo {
   display: flex;
 }
-.footer__logo_image {
+.footer__logo-image {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/LogoSmallSolid.png");
   width: 50px;
   height: 50px;

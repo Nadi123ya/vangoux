@@ -1,10 +1,12 @@
 .user {
   display: none;
+  
   @include for-large-up {
     display: block;
     padding: 0 120px 120px 120px;
   }
   &__explanation {
+
     @include for-large-up {
       margin: 0;
       padding-left: 40px;
@@ -14,6 +16,7 @@
     }
   }
   &__line {
+
     @include for-large-up {
     }
   }
@@ -21,23 +24,27 @@
     padding: 38px 0 20px 0;
   }
   &__container {
+
     @include for-large-up {
       display: flex;
     }
   }
   &__container:first-child {
+
     @include for-large-up {
       padding-bottom: 20px;
       padding-left: 40px;
     }
   }
   &__container:last-child {
+
     @include for-large-up {
       padding-left: 40px;
     }
   }
 
   &__blocks {
+
     @include for-large-up {
       width: 360px;
       background-color: #ffffff;
@@ -45,15 +52,16 @@
     }
   }
   &__blocks:nth-child(2) {
+
     @include for-large-up {
       margin-right: 20px;
       margin-left: 20px;
     }
   }
   &__title {
+
     @include for-large-up {
       margin: 0;
-      text-transform: capitalize;
       color: $text-color-blue;
       font-weight: 700;
       font-size: 20px;
@@ -62,6 +70,7 @@
     }
   }
   &__text {
+    
     @include for-large-up {
       margin: 0;
       font-weight: 400;
